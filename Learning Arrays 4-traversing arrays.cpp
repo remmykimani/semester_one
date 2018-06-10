@@ -5,7 +5,22 @@
 #include <array>
 using namespace std;
 
+double average(double array[], unsigned int size)
+{
+	double sum = 0.0;
+	for (int i = 0; i < size; i++)
+	{
+		sum = sum + array[i];
+	}
+	return(sum / size);
+}
+
+
 int main()
 {
-    //pushing is working okay
+	double age[]={ 12,33,55,18,67 };
+	cout << average(age, 5) << endl;
+
+	system("pause");
+	return 0;
 }
