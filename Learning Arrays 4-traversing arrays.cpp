@@ -7,5 +7,5 @@ using namespace std;
 
 int main()
 {
-    //pushing is working
+    //pushing is working okay
 }
