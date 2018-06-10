@@ -1,0 +1,47 @@
+//C++ program to show my name
+
+#include "stdafx.h"// what is this???,
+#include <iostream>
+
+using namespace std;
+#include <string>
+
+int main()
+{
+	string first_name, last_name;
+	cout << "What is your first name?\t";
+	cin >> first_name;
+	cout << "What is your last name?\t";
+	cin >> last_name;
+	cout << "Your name is:\t" << first_name << "  " << last_name << "\n";
+
+
+
+	system("pause");
+	 return 0;
+}
+
+
+
+
+
+//C++ program to show my name
+
+#include "stdafx.h"// what is this???,
+#include <iostream>
+
+using namespace std;
+#include <iomanip>
+#include <string>
+
+int main()
+{
+	string first_name="Remmy", last_name="Kimani";
+
+	cout << "Your name is:\t" << first_name <<setw(5)<< last_name << "\n";
+
+
+
+	system("pause");
+	 return 0;
+}

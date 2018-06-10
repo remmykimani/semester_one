@@ -1,0 +1,34 @@
+//if statements
+
+#include "stdafx.h"// what is this???,
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+using namespace std;
+
+int main(int argc, char const *argv[])
+{
+	int x, y, z;
+	cout << "WHART ARE THE SIDES OF THE TRIANGLE\n"
+		<< "What is the first side\n";
+	cin >> x;
+
+	cout << "What is the second side\n";
+	cin >> y;
+	cout << "What is the third side\n";
+	cin >> z;
+
+	if (x&&y&&z == x&&y&&z)
+		cout << "It is a equlateral triangle\n";
+
+	else
+		if (x&&y || x&&z || z&&y == x&&y || x&&z || z&&y)
+
+			cout << "this is a isoceles triangle\n";
+	else
+		if (x != y && x != z && y != z) 
+				cout << "this is a scalene triangle\n";
+
+	system("pause");
+	return 0;
+}
