@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-	array<double, 5>age;//new way to create arrays.NOTE SYANTAX
+	array<double, 5>age;//new way to create arrays.NOTE SYNTAX
 
 	age[0];//this is not nessesary aand can be excluded from the code
 	age[1];
